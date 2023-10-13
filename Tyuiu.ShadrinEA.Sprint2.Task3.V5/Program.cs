@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Tyuiu.ShadrinEA.Sprint2.Task2.V4.Lib;
+using Tyuiu.ShadrinEA.Sprint2.Task3.V5.Lib;
 
-namespace Tyuiu.ShadrinEA.Sprint2.Task2.V4
+namespace Tyuiu.ShadrinEA.Sprint2.Task3.V5
 {
     class Program
     {
@@ -17,15 +17,14 @@ namespace Tyuiu.ShadrinEA.Sprint2.Task2.V4
             Console.Title = "Спринт #1 | Выполнил: Шадрин Е.А | ИСТНб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Алгоритмы линейной структуры                                      *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #4                                                              *");
+            Console.WriteLine("* Тема: Алгоритмы разветвляющейся структуры                               *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнил: Шадрин Егор Андреевич | ИСТНб-23-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает целые значения с клавиатуры и   *");
-            Console.WriteLine("* вычисляет находится ли точка с координатами X,Y в заштрихованной области*");
-            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Y.     *");
+          
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -33,17 +32,16 @@ namespace Tyuiu.ShadrinEA.Sprint2.Task2.V4
 
 
             Console.WriteLine("Введите значение X:");
-            int x = Convert.ToInt32(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите значение Y:");
-            int y = Convert.ToInt32(Console.ReadLine());
+           
 
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine($"{ ds.CheckDotInShadedArea(x, y)}");
+            Console.WriteLine($"{ ds.Calculate(x)}");
             Console.ReadKey();
         }
     }
