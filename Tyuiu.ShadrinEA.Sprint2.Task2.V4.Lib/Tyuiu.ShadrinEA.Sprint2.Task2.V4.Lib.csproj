@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{557545C5-AABE-4C27-B9F7-E2A05027BBCD}</ProjectGuid>
+    <ProjectGuid>{2E976791-C4C5-47FD-A701-DDED14701941}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.ShadrinEA.Sprint2.Task0.V0.Lib</RootNamespace>
-    <AssemblyName>Tyuiu.ShadrinEA.Sprint2.Task0.V0.Lib</AssemblyName>
+    <RootNamespace>Tyuiu.ShadrinEA.Sprint2.Task2.V4.Lib</RootNamespace>
+    <AssemblyName>Tyuiu.ShadrinEA.Sprint2.Task2.V4.Lib</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -39,9 +39,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="tyuiu.cources.programming.interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Tyuiu.ShadrinEA.Sprint1\tyuiu.cources.programming.interfaces.dll</HintPath>
+    <Reference Include="tyuiu.cources.programming.interfaces">
+      <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
